@@ -1,6 +1,6 @@
 ## FastApi-App
 
-[Completed App](https://github.com/Nditah/hello_fastapi) | 
+[Completed App](https://github.com/Nditah/hello-fastapi) | 
 [FastApi Official Website](https://fastapi.tiangolo.com//) | 
 
 
