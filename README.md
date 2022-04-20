@@ -92,7 +92,6 @@ def add(req: Request, todo_id: int, db: Session = Depends(get_db)):
 ## models.py
 
 ```py
-from email.policy import default
 from sqlalchemy import Boolean, Column, Integer, String
 from database import Base
 
@@ -108,7 +107,6 @@ class Todo(Base):
 ## database.py
 
 ```py
-import imp
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
